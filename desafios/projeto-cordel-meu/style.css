@@ -26,6 +26,7 @@ header h1{
     font-family:'passionone';
     font-size: 10vw;
     font-weight:normal;
+    font-variant: small-caps;
 
 }
 header p{
