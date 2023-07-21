@@ -40,6 +40,9 @@ header a{
     font-size: 13px;
 
 }
+header a:hover{
+    text-decoration: underline;
+}
 pre{
     font-family:'Sriracha-Regular';
     font-weight:normal ;
