@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <!--
+        (a funçao 'required' no input, faz com que nao deixe avançar se o campo estiver vazio! 
+    -->
+    <!--
+        (a funçao "minlength" configura o ninimo de caracter que o input pode receber)
+        
+        (a funçao "maxlength" configura o maximo de caracter que o input pode receber)
+    -->
+    <!--
+        (size dentro do input controla o tamanho da caixa do input)
+        (placeholder da uma dica dentro do input)
+    -->
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusuario">usuário:</label>
+            <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="7">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha"required minlength="4" maxlength="7" size="10" placeholder="max 8 caracter">
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+    </form>
+
+</body>
+</html>

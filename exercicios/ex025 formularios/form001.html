@@ -7,13 +7,19 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php">
-        <p><label for="inome">nome:</label> 
-            <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+     <!--method get ou post (get mostra os dados na url, post nao mostra os dados na url)
+    (get até 3 mil letras(post conteudos como senha,cartoes de credito, envio de arquivos,fotos etc...))-->
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
         
-            <input type="submit" value="enviar">
+            <input type="submit" value="Enviar">
     </form>   
 </body>
 </html>
