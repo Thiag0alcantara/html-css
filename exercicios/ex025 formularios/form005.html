@@ -6,23 +6,36 @@
     <title>formulário</title>
 </head>
 <body>
+    <!--
+        A DIFERENÇA ENTRE INPUT (RADIO E CHECKBOX)
+        RADIO(SÓ PODE MARCARA UMA OPÇÃO)(O RADIO TEM QUE TER O MESMO NAME)
+        CHECKBOX(PODE MARCAR VARIAS OPÇÕES)
+    -->
     <H1>Exemplo de formulário</H1>
-    <fieldset >
-        <legend>Esportes Favoritos</legend>
+        <form action="cadastro.php">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="Sexo" id="imasc" checked value="M"><label for="imasc">Maculino</label><br>
 
-        
-            <input type="checkbox" name="Futebol" id="efut" ><label for="efut">Futebol</label><br>
-            <input type="checkbox" name="basquete" id="ebasq"><label for="ebasq">Basquete </label> <br>
+                <input type="radio" name="Sexo" id="ifem" value="F" ><label for="ifem">Feminino</label><br>
+            </fieldset>
+                
+                <fieldset >
+            <legend>Esportes Favoritos</legend>
             
-            <input type="checkbox" name="Tênis" id="etenis"><label for="etenis">Tênis </label> <br>
-            <input type="checkbox" name="natacao" id="enatacao"><label for="enatacao">Natação </label> <br>
-        
-
-    </fieldset>
-    <p>
-        <input type="submit" value="ENVIAR">
-        <input type="reset" value="LIMPAR">
-    </p>
+                <input type="checkbox" name="Futebol" id="efut" checked ><label for="efut">Futebol</label><br>
+                <input type="checkbox" name="basquete" id="ebasq"><label for="ebasq">Basquete </label> <br>
+            
+                <input type="checkbox" name="Tênis" id="etenis"><label for="etenis">Tênis </label> <br>
+                <input type="checkbox" name="natacao" id="enatacao"><label for="enatacao">Natação </label> <br>
+            
+            
+                </fieldset>
+                <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+                </p>
+        </form>
         
 
         
