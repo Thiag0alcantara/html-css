@@ -1,5 +1,61 @@
 @charset "UTF-8";
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: lightgrey;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(158, 157, 157);
+}
+header{
+    background-color: grey;
+}
+header a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top:2px solid rgba(0, 0, 0, 0.541);
+}
+header a:hover{
+    background-color: rgb(62, 62, 62);
+}
+menu{
+    display: none;
+
+}
+span{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+main{
+    background-color: white;
+    width: 90vw; 
+    margin: auto;   
+
+}
+main h2{
+    padding: 10px;
+
+}
+main p{
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 5px;
+
 }
